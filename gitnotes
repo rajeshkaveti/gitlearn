@@ -12,3 +12,21 @@ git push -u origin master
 …or push an existing repository from the command line
 git remote add origin https://github.com/rajeshkaveti/gitlearn.git
 git push -u origin master
+
+
+Pushing to remote
+git push origin master
+
+git fetch origin fetches any new work that has been pushed to that server since you cloned (or last fetched from)
+it.git fetch command only downloads the data to your local repository — it doesn’t automatically merge it with any of
+your work or modify what you’re currently working on. You have to merge it manually into your work when you’re ready.
+
+Use the git pull command to automatically fetch and then merge that remote branch into your current branch
+
+
+GIT TAG
+
+it has the ability to tag specific points in history as being important. Typically people use this functionality to
+mark release points (v1.0, and so on).
+
+git tag -a v1.4 -m "my version 1.4"
