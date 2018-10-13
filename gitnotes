@@ -37,4 +37,15 @@ git branch testing
 
 This moves HEAD to point to the testing branch.
 
+git branch iss53
+git checkout iss53
+git push --set-upstream origin iss53
 
+
+hotfix
+git checkout -b hotfix
+you change the file
+
+Then you merge with master
+git checkout master
+get merge hotfix
