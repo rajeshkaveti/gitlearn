@@ -49,3 +49,8 @@ you change the file
 Then you merge with master
 git checkout master
 get merge hotfix
+
+
+deleting branch
+git branch -d myfix
+git push origin -d myfix
