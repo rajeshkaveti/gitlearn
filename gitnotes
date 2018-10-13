@@ -30,3 +30,11 @@ it has the ability to tag specific points in history as being important. Typical
 mark release points (v1.0, and so on).
 
 git tag -a v1.4 -m "my version 1.4"
+
+
+CREATING NEW BRANCH
+git branch testing
+
+This moves HEAD to point to the testing branch.
+
+
